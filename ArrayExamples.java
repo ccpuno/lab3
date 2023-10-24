@@ -13,7 +13,7 @@ public class ArrayExamples {
     for(int i = 0; i < arr.length/2; i++){
       int revArr = arr[i]; 
       arr[i] = arr[arr.length - i - 1];
-      arr[i] = revArr;
+      arr[arr.length - i - 1] = revArr;
       }
     }
    
